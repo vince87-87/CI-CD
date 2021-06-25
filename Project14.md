@@ -121,5 +121,6 @@ Paste the token and connect
 
 Create a new pipeline
 
-![image](https://user-images.githubusercontent.com/49937302/123439430-550c1300-d604-11eb-8014-eedffd11b755.png)
+![image](https://user-images.githubusercontent.com/49937302/123442079-1af04080-d607-11eb-9390-e98f94fec594.png)
+
 
