@@ -123,4 +123,21 @@ Create a new pipeline
 
 ![image](https://user-images.githubusercontent.com/49937302/123442079-1af04080-d607-11eb-9390-e98f94fec594.png)
 
+At this point you may not have a Jenkinsfile in the Ansible repository, so Blue Ocean will attempt to give you some guidance to create one. But we do not need that. We will rather create one ourselves. So, click on Administration to exit the Blue Ocean console.
+
+![image](https://user-images.githubusercontent.com/49937302/123445495-84be1980-d60a-11eb-94a6-e5b6df32b3c2.png)
+
+Here is our newly created pipeline. It takes the name of your GitHub repository.
+
+![image](https://user-images.githubusercontent.com/49937302/123445872-e67e8380-d60a-11eb-84f2-c5cebf404f0f.png)
+
+# Let us create our Jenkinsfile
+
+Inside the Ansible project, create a new directory deploy and start a new file Jenkinsfile inside the directory.
+
+![image](https://user-images.githubusercontent.com/49937302/123446696-b4b9ec80-d60b-11eb-9e5a-b0b6c68f8321.png)
+
+Add the code snippet below to start building the Jenkinsfile gradually. This pipeline currently has just one stage called Build and the only thing we are doing is using the shell script module to echo Building Stage
+
+![image](https://user-images.githubusercontent.com/49937302/123447006-019dc300-d60c-11eb-982a-07151aab02cf.png)
 
