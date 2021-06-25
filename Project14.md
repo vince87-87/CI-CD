@@ -101,6 +101,25 @@ Install & Open Blue Ocean Jenkins Plugin
 
 ![image](https://user-images.githubusercontent.com/49937302/123437715-8e438380-d602-11eb-9b65-3ab23da5b025.png)
 
+Connect Jenkins with GitHub
 
+![image](https://user-images.githubusercontent.com/49937302/123438378-36594c80-d603-11eb-8fca-2e584f41601b.png)
+
+Login to GitHub & Generate an Access Token
+
+![image](https://user-images.githubusercontent.com/49937302/123438434-44a76880-d603-11eb-8005-9e5e3a682afb.png)
+
+![image](https://user-images.githubusercontent.com/49937302/123438508-5557de80-d603-11eb-9fc6-cb2ca5c614bf.png)
+
+Copy Access Token
+
+![image](https://user-images.githubusercontent.com/49937302/123438628-7ae4e800-d603-11eb-90ac-0715f8bbd24e.png)
+
+Paste the token and connect
+
+![image](https://user-images.githubusercontent.com/49937302/123438977-d911cb00-d603-11eb-8fe7-c3b1fe81e3cf.png)
 
 Create a new pipeline
+
+![image](https://user-images.githubusercontent.com/49937302/123439430-550c1300-d604-11eb-8014-eedffd11b755.png)
+
