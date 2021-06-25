@@ -95,4 +95,12 @@ Navigate to Jenkins URL
 
 Install & Open Blue Ocean Jenkins Plugin
 
+![image](https://user-images.githubusercontent.com/49937302/123436841-a49d0f80-d601-11eb-8bec-995ccc1cbb44.png)
+
+![image](https://user-images.githubusercontent.com/49937302/123437277-15442c00-d602-11eb-9f1a-ed331675496d.png)
+
+![image](https://user-images.githubusercontent.com/49937302/123437715-8e438380-d602-11eb-9b65-3ab23da5b025.png)
+
+
+
 Create a new pipeline
