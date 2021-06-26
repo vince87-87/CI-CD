@@ -141,3 +141,29 @@ Add the code snippet below to start building the Jenkinsfile gradually. This pip
 
 ![image](https://user-images.githubusercontent.com/49937302/123447006-019dc300-d60c-11eb-982a-07151aab02cf.png)
 
+Now go back into the Ansible pipeline in Jenkins, and select configure
+
+![image](https://user-images.githubusercontent.com/49937302/123513813-e097a980-d6c1-11eb-8087-12200920db31.png)
+
+Scroll down to Build Configuration section and specify the location of the Jenkinsfile at deploy/Jenkinsfile
+
+![image](https://user-images.githubusercontent.com/49937302/123514064-45073880-d6c3-11eb-9899-7a6200b0c119.png)
+
+This will trigger a build and you will be able to see the effect of our basic Jenkinsfile configuration by going through the console output of the build.
+
+![image](https://user-images.githubusercontent.com/49937302/123514320-03778d00-d6c5-11eb-81db-a81d70c7cf9c.png)
+
+To really appreciate and feel the difference of Cloud Blue UI, it is recommended to try triggering the build again from Blue Ocean interface.
+
+Click on Blue Ocean
+
+Select your project
+
+Click on the play button against the branch 
+
+![image](https://user-images.githubusercontent.com/49937302/123514461-bea02600-d6c5-11eb-8693-eee2c93c5985.png)
+
+Notice that this pipeline is a multibranch one. This means, if there were more than one branch in GitHub, Jenkins would have scanned the repository to discover them all and we would have been able to trigger a build for each branch.
+
+Let us see this in action.
+
