@@ -167,3 +167,35 @@ Notice that this pipeline is a multibranch one. This means, if there were more t
 
 Let us see this in action.
 
+Create a new git branch and name it feature/jenkinspipeline-stages
+
+git branch feature/jenkinspipeline-stages
+
+git switch feature/jenkinspipeline-stages
+
+Currently we only have the Build stage. Let us add another stage called Test. Paste the code snippet below and push the new changes to GitHub.
+
+![image](https://user-images.githubusercontent.com/49937302/123514857-8699e280-d6c7-11eb-8d99-b1f2121204e3.png)
+
+To make your new branch show up in Jenkins, we need to tell Jenkins to scan the repository.
+
+Click on the “Administration” button
+
+![image](https://user-images.githubusercontent.com/49937302/123515035-86e6ad80-d6c8-11eb-9bf1-fd3350fe3d16.png)
+
+Navigate to the Ansible project and click on “Scan repository now”
+
+![image](https://user-images.githubusercontent.com/49937302/123515063-aa115d00-d6c8-11eb-8357-4694b2c6b947.png)
+
+Navigate to Scan repository log to check the logs
+
+![image](https://user-images.githubusercontent.com/49937302/123515216-fe1c4180-d6c8-11eb-81ce-a21732700c03.png)
+
+Refresh the page and both branches will start building automatically. You can go into Blue Ocean and see both branches there too.
+
+![image](https://user-images.githubusercontent.com/49937302/123515286-5ce1bb00-d6c9-11eb-91e6-546b8add73f1.png)
+
+In Blue Ocean, you can now see how the Jenkinsfile has caused a new step in the pipeline launch build for the new branch.
+
+![image](https://user-images.githubusercontent.com/49937302/123515402-d1b4f500-d6c9-11eb-9ed9-74c9e31d0d2c.png)
+
