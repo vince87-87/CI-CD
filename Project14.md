@@ -237,6 +237,12 @@ Installing Ansible plugin in Jenkins UI
 
 ![image](https://user-images.githubusercontent.com/49937302/123632688-cdfcac00-d84a-11eb-944b-c30d9b593eb2.png)
 
+manage jenkins,global tool configuration
+
+![image](https://user-images.githubusercontent.com/49937302/123633925-634c7000-d84c-11eb-81cc-a9315212fb4a.png)
+
+Create new pipeline
+
 
 
 Creating Jenkinsfile from scratch. (Delete all you currently have in there and start all over to get Ansible to run successfully)
