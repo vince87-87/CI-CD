@@ -199,3 +199,44 @@ In Blue Ocean, you can now see how the Jenkinsfile has caused a new step in the 
 
 ![image](https://user-images.githubusercontent.com/49937302/123515402-d1b4f500-d6c9-11eb-9ed9-74c9e31d0d2c.png)
 
+Create a pull request to merge the latest code into the main branch
+
+After merging the PR, go back into your terminal and switch into the main branch
+
+Pull the latest change
+
+Create a new branch, add more stages into the Jenkins file to simulate below phases. (Just add an `echo` command like we have in `build` and `test` stages)
+
+   - Package 
+   
+   - Deploy 
+  
+   - Clean up
+
+Verify in Blue Ocean that all the stages are working, then merge the feature branch to the main branch
+
+Eventually, the main branch should have a successful pipeline like this in blue ocean
+
+![image](https://user-images.githubusercontent.com/49937302/123631557-76aa0c00-d849-11eb-825c-cdd8f6130549.png)
+
+![image](https://user-images.githubusercontent.com/49937302/123631487-5f6b1e80-d849-11eb-9d9d-e9fdda387369.png)
+
+![image](https://user-images.githubusercontent.com/49937302/123631664-980af800-d849-11eb-992d-15d11abae04a.png)
+
+# Running Ansible Playbook from Jenkins
+
+Now that you have a broad overview of a typical Jenkins pipeline. Let us get the actual Ansible deployment to work by:
+
+Installing Ansible on Jenkins
+
+sudo apt install ansible -y
+
+Installing Ansible plugin in Jenkins UI
+
+![image](https://user-images.githubusercontent.com/49937302/123632574-aefe1a00-d84a-11eb-92eb-5f63d4bb94fb.png)
+
+![image](https://user-images.githubusercontent.com/49937302/123632688-cdfcac00-d84a-11eb-944b-c30d9b593eb2.png)
+
+
+
+Creating Jenkinsfile from scratch. (Delete all you currently have in there and start all over to get Ansible to run successfully)
